@@ -1,0 +1,126 @@
+// Variables
+
+$border-color: #ececec;
+
+$white-color: #ffffff;
+
+$primary-color: #5e6277;
+$primary-color-darker: darken($primary-color, 10%);
+
+
+// Elements
+.container {
+  max-width: 1024px!important;
+}
+
+.page-loading {
+  margin: 50px auto;
+  margin-bottom: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.page-alert {
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+// Pages
+.page-view {
+  margin: 20px auto;
+}
+
+
+// Forms
+#profits-endpoint-form {
+  max-width: 700px;
+  margin: 50px auto;
+  border: 1px solid $border-color;
+
+  padding: 30px 0;
+  background: $white-color;
+
+  input {
+    padding: 10px;
+  }
+}
+
+
+// Profits
+.profits-items {
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 3px solid $primary-color-darker;
+  background: $primary-color;
+
+  h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: $white-color;
+  }
+
+  p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    color: $white-color;
+  }
+
+  .profits-item {
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    color: $primary-color !important;
+    background-color: $white-color !important;
+    border: 2px solid $primary-color-darker;
+
+    span {
+      margin-bottom: -7px;
+      display: block;
+      color: $primary-color !important;
+      font-size: 15px;
+    }
+
+    .px-0 {
+      padding: 5px;
+    }
+
+    strong {
+      font-size: 30px;
+    }
+  }
+}
+
+
+.profits-endpoint-display-area {
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid $border-color;
+
+  .profits-endpoint-display {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    display: block;
+    border: 1px solid $border-color;
+    background: $white-color;
+    padding: 7px 30px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: $primary-color;
+  }
+}
+
